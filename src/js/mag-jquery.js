@@ -604,7 +604,7 @@
     }
 
 
-    if (options.position) {
+    /*if (options.position) {
       $zone.on('mousewheel', function (e) {
         e.preventDefault();
 
@@ -615,7 +615,7 @@
         model.zoom = zoom;
         that.compute();
       });
-    }
+    }*/
 
 
     var renderLoopInterval = setInterval(renderLoop, renderLoopIntervalTime);
